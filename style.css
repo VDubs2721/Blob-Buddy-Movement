@@ -1,0 +1,21 @@
+body {
+	display: grid;
+	height: 100vh;
+	place-items: center;
+	overflow: hidden;
+}
+
+span {
+	text-align: center;
+	font-family: "Courier New", monospace;
+	grid-area: 1/1;
+	color: grey;
+	line-height: 1.5;
+	pointer-events: none;
+}
+
+canvas {
+	grid-area: 1/1;
+	height: 100%;
+	width: 100%;
+}
